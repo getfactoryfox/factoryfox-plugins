@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "factoryfox": {
+      "type": "http",
+      "url": "https://getfactoryfox.com/api/mcp"
+    }
+  }
+}

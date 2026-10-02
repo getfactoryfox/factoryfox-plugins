@@ -1,0 +1,27 @@
+{
+  "name": "factoryfox",
+  "displayName": "FactoryFox",
+  "version": "0.2.1",
+  "description": "Find industrial suppliers and compare capabilities using source-backed evidence.",
+  "author": {
+    "name": "FactoryFox",
+    "url": "https://getfactoryfox.com/"
+  },
+  "homepage": "https://getfactoryfox.com/",
+  "repository": "https://github.com/monemetrics/factoryfox-plugins",
+  "keywords": [
+    "suppliers",
+    "sourcing",
+    "manufacturing",
+    "procurement",
+    "mcp"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://getfactoryfox.com/llms.txt",
+  "supportUrl": "mailto:privacy@getfactoryfox.com",
+  "privacyPolicyUrl": "https://getfactoryfox.com/privacy",
+  "termsOfServiceUrl": "https://getfactoryfox.com/terms",
+  "metadata": {
+    "contentHash": "4868ac6f5b994c8f"
+  }
+}

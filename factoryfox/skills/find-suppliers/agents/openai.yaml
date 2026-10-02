@@ -1,0 +1,12 @@
+interface:
+  display_name: "Find suppliers"
+  short_description: "Shortlist industrial suppliers with source evidence"
+  default_prompt: "Use $find-suppliers to find suppliers for my sourcing brief and compare evidence and unknowns."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "factoryfox"
+      description: "Public FactoryFox supplier discovery tools"
+      transport: "streamable_http"
+      url: "https://getfactoryfox.com/api/mcp"

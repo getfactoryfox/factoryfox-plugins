@@ -1,0 +1,15 @@
+{
+  "name": "factoryfox",
+  "description": "FactoryFox plugins: evidence-backed industrial supplier search.",
+  "owner": {
+    "name": "FactoryFox",
+    "url": "https://getfactoryfox.com/"
+  },
+  "plugins": [
+    {
+      "name": "factoryfox",
+      "source": "./factoryfox",
+      "description": "Find industrial suppliers and compare capabilities using source-backed evidence."
+    }
+  ]
+}

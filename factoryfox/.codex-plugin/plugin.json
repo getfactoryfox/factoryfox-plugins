@@ -1,0 +1,20 @@
+{
+  "name": "factoryfox",
+  "version": "0.2.1",
+  "description": "Find industrial suppliers and compare capabilities using source-backed evidence.",
+  "author": {
+    "name": "FactoryFox"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FactoryFox",
+    "shortDescription": "Find suppliers with evidence for each match.",
+    "longDescription": "Search industrial suppliers, inspect public company profiles, and browse capabilities and countries. Compare supported requirements with unknowns, with links to profiles and evidence sources.",
+    "developerName": "FactoryFox",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Find suppliers for low-volume PCB assembly in Europe and show the evidence and requirements I should confirm.",
+    "websiteURL": "https://getfactoryfox.com"
+  },
+  "mcpServers": "./.codex-plugin/mcp.json"
+}
