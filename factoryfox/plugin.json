@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "factoryfox",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Find industrial suppliers and compare capabilities using source-backed evidence."
 }

@@ -5,11 +5,11 @@
 ## Install
 
 ```bash
-claude plugin marketplace add monemetrics/factoryfox-plugins
+claude plugin marketplace add getfactoryfox/factoryfox-plugins
 claude plugin install factoryfox@factoryfox
 ```
 
-In claude.ai, the Claude desktop app or Cowork: Customize > Plugins > Add > Add marketplace, then enter `monemetrics/factoryfox-plugins`. Other hosts (Codex, ChatGPT, any MCP client) are covered in [factoryfox/README.md](factoryfox/README.md).
+In claude.ai, the Claude desktop app or Cowork: Customize > Plugins > Add > Add marketplace, then enter `getfactoryfox/factoryfox-plugins`. Other hosts (Codex, ChatGPT, any MCP client) are covered in [factoryfox/README.md](factoryfox/README.md).
 
 Then ask, for example: "Find suppliers for low-volume PCB assembly in Europe and show the evidence."
 

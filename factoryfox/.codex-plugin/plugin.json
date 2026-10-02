@@ -1,20 +1,40 @@
 {
   "name": "factoryfox",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Find industrial suppliers and compare capabilities using source-backed evidence.",
   "author": {
-    "name": "FactoryFox"
+    "name": "FactoryFox",
+    "url": "https://getfactoryfox.com/",
+    "email": "privacy@getfactoryfox.com"
   },
+  "homepage": "https://getfactoryfox.com/",
+  "repository": "https://github.com/getfactoryfox/factoryfox-plugins",
+  "license": "MIT",
+  "keywords": [
+    "suppliers",
+    "sourcing",
+    "manufacturing",
+    "procurement",
+    "mcp"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "FactoryFox",
-    "shortDescription": "Find suppliers with evidence for each match.",
-    "longDescription": "Search industrial suppliers, inspect public company profiles, and browse capabilities and countries. Compare supported requirements with unknowns, with links to profiles and evidence sources.",
+    "shortDescription": "Find industrial suppliers",
+    "longDescription": "FactoryFox is an industrial supplier discovery tool for sourcing and procurement. Describe what you need made (for example PCB assembly, CNC machining or injection molding, with country, volume and certification requirements) and FactoryFox searches its supplier database, inspects public company profiles, and returns a shortlist. Each match shows which requirements are supported by linked evidence sources and which remain unknown, so you know what to confirm with the supplier.",
     "developerName": "FactoryFox",
-    "category": "Productivity",
-    "capabilities": [],
+    "category": "Business & Operations",
+    "capabilities": [
+      "Read"
+    ],
     "defaultPrompt": "Find suppliers for low-volume PCB assembly in Europe and show the evidence and requirements I should confirm.",
-    "websiteURL": "https://getfactoryfox.com"
+    "websiteURL": "https://getfactoryfox.com/",
+    "privacyPolicyURL": "https://getfactoryfox.com/privacy",
+    "termsOfServiceURL": "https://getfactoryfox.com/terms",
+    "supportURL": "https://github.com/getfactoryfox/factoryfox-plugins/issues",
+    "composerIcon": "./icon.png",
+    "logo": "./icon.png",
+    "screenshots": []
   },
   "mcpServers": "./.codex-plugin/mcp.json"
 }
