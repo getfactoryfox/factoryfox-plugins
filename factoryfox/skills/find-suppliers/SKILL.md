@@ -53,9 +53,21 @@ sourcing step or unresolved requirement.
 
 These tools discover public information; they do not send RFQs, contact suppliers,
 claim profiles, edit data or place orders. Do not present those actions as completed.
-If the MCP tools are unavailable, explain that the FactoryFox connector
-(https://getfactoryfox.com/api/mcp) must be connected; the public site at https://getfactoryfox.com/ can be used for
-manual research.
+
+## If the tools are unavailable
+
+The plugin bundles the connector, but in claude.ai and Cowork installing a
+plugin does not turn on its connector. If no FactoryFox tools are available, say
+so in one line and give the one-time fix before doing anything else:
+
+> Open Customize > Plugins > FactoryFox > Connectors and select **Add** next to
+> FactoryFox (no sign-in needed), then check it is on in this chat's **+** >
+> Connectors menu.
+
+Do not tell the user to add a custom connector by URL; the plugin already carries
+it. Outside claude.ai, the server is https://getfactoryfox.com/api/mcp (HTTP, no authentication).
+Until it is connected, you may research on the public site at https://getfactoryfox.com/, but
+label the results as unranked directory listings without per-fact evidence.
 
 ## Tool reference
 

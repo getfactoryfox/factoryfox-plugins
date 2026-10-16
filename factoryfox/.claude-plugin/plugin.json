@@ -1,7 +1,7 @@
 {
   "name": "factoryfox",
   "displayName": "FactoryFox",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Find industrial suppliers and compare capabilities using source-backed evidence.",
   "author": {
     "name": "FactoryFox",
@@ -23,6 +23,6 @@
   "privacyPolicyUrl": "https://getfactoryfox.com/privacy",
   "termsOfServiceUrl": "https://getfactoryfox.com/terms",
   "metadata": {
-    "contentHash": "29abd9179ce09a29"
+    "contentHash": "81541d45299e5ff4"
   }
 }
