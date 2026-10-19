@@ -16,10 +16,10 @@ Then ask, for example: "Find suppliers for low-volume PCB assembly in Europe and
 ## Tools
 
 - `search_suppliers`: Search suppliers
-- `find_company`: Find a company
-- `get_company_profile`: Get supplier profile
-- `browse_suppliers`: Browse supplier directory
-- `list_supplier_taxonomy`: List supplier taxonomy
+- `find_supplier_by_name`: Find supplier by name
+- `get_supplier_profile`: Get supplier profile
+- `browse_supplier_directory`: Browse supplier directory
+- `list_supplier_search_terms`: List supplier search terms
 
 [Privacy policy](https://getfactoryfox.com/privacy) · [Terms](https://getfactoryfox.com/terms) · privacy@getfactoryfox.com
 
