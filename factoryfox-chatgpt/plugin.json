@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "factoryfox",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "description": "Find industrial suppliers and compare capabilities using source-backed evidence.",
   "author": {
     "name": "FactoryFox",
@@ -28,9 +28,16 @@
         "developerName": "FactoryFox",
         "category": "Business & Operations",
         "capabilities": [
-          "Read"
+          "Search suppliers",
+          "Read supplier profiles",
+          "Browse supplier directory",
+          "List supplier search terms"
         ],
-        "defaultPrompt": "Find suppliers for low-volume PCB assembly in Europe and show the evidence and requirements I should confirm.",
+        "defaultPrompt": [
+          "Find suppliers for low-volume PCB assembly in Europe and show the evidence and requirements I should confirm.",
+          "Compare cable harness assemblers in Poland and list what I still need to confirm.",
+          "What does Würth Elektronik eiSos make, and where is it based?"
+        ],
         "websiteURL": "https://getfactoryfox.com/",
         "privacyPolicyURL": "https://getfactoryfox.com/privacy",
         "termsOfServiceURL": "https://getfactoryfox.com/terms",
